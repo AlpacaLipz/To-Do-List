@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  list-style: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  margin-bottom: 50px;
+  border-bottom: solid white;
+  margin-left: 100px;
+}
+form {
+  display: flex;
+}
+.valid {
+  font-size: 1.3em;
+  margin-left: 305px;
+  width: 225px;
+  border-bottom: white solid;
+}
+
+h1 {
+  color: white;
+  width: 230px;
+  display: flex;
+  font-size: 3em;
+}
+.label {
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 1.75em;
+  margin-left: 110px;
+}
+.task {
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 1.75em;
+  margin-left: 10px;
+}
+.taskTwo {
+  color: white;
+  font-size: 1.75em;
+  margin-left: 50px;
+  display: flex;
+}
+
+.taskList {
+  color: white;
+  font-size: 1.75em;
+  margin-left: 25px;
+}
+
+.marginLefter {
+  margin-left: 25px;
+}
+.marginLeftist {
+  margin-left: 100px;
+}
+.inputStyle {
+  font-size: 1.15em;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 50px;
+  height: 30px;
+  width: 350px;
+}
+
+button {
+  padding: 11px;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0, 4s;
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  height: 40px;
+  margin-left: 20px;
+}
+button:hover {
+  border: solid gray;
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.css-selector {
+  background: linear-gradient(271deg, #2d2f2e, #676b69, #252726);
+  background-size: 600% 600%;
+
+  -webkit-animation: todolist 23s ease infinite;
+  -moz-animation: todolist 23s ease infinite;
+  animation: todolist 23s ease infinite;
+}
+
+@-webkit-keyframes todolist {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes todolist {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes todolist {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.contain {
+  display: flex;
+  margin-left: 900px;
+  width: 800px;
+}
+
+.strikethrough:checked {
+  text-decoration: line-through;
+}
+input[type="checkbox"] {
+  appearance: none;
+  background-color: #fff;
+  font: inherit;
+  color: currentColor;
+  height: 32px;
+  width: 32px;
+  border: 0.15em solid black;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em);
+}
